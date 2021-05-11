@@ -145,18 +145,6 @@ function reset() {
 //     }
 // });
 
-// hardButton.addEventListener("click", function(){
-//     hardButton.classList.add("selected");
-//     easyButton.classList.remove("selected");
-//     numSquares = 6;
-//     colors = generateRandomColors(numSquares);
-//     pickedColor = pickColor();
-//     colorDisplay.textContent = pickedColor;
-//     for(var i = 0; i < squares.length; i++){
-//         squares[i].style.backgroundColor = colors[i];
-//         squares[i].style.display = "block";
-//     }
-// });
 
 resetButton.addEventListener("click", function(){
     reset();
