@@ -129,23 +129,6 @@ function reset() {
     h1.style.backgroundColor = "steelblue";
 }
 
-// easyButton.addEventListener("click", function(){
-//     hardButton.classList.remove("selected");
-//     easyButton.classList.add("selected");
-//     numSquares = 3;
-//     colors = generateRandomColors(numSquares);
-//     pickedColor = pickColor();
-//     colorDisplay.textContent = pickedColor;
-//     for(var i = 0; i < squares.length; i++){
-//         if(colors[i]){
-//             squares[i].style.backgroundColor = colors[i];
-//         } else {
-//             squares[i].style.display = "none";
-//         }
-//     }
-// });
-
-
 resetButton.addEventListener("click", function(){
     reset();
 });
