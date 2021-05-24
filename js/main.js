@@ -1,5 +1,3 @@
-console.log("connected");
-
 var numSquares = 6;
 var colors = [];
 var pickedColor;
@@ -12,9 +10,7 @@ var modeButtons = document.querySelectorAll(".mode");
 // var easyButton = document.querySelector("#easy");
 // var hardButton = document.querySelector("#hard");
 
-
 init();
-
 function init() {
     setupModeButtons();
     setupSquares();
@@ -49,7 +45,6 @@ function setupSquares() {
         });
     }
 }
-
 
 function reset() {
     //generate all new colors
